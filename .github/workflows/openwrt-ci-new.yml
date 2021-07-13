@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: OpenWrt-CI-New
+name: p4b_v3.0
 
 on:
   push:
@@ -189,7 +189,7 @@ jobs:
           CONFIG_PACKAGE_kmod-nbd=y
           CONFIG_PACKAGE_kmod-nf-nat6=y
           # CONFIG_PACKAGE_kmod-shortcut-fe is not set
-          CONFIG_PACKAGE_kmod-sit=y
+          #CONFIG_PACKAGE_kmod-sit=y
           CONFIG_PACKAGE_kmod-tun=y
           CONFIG_PACKAGE_kmod-vmxnet3=y
           CONFIG_PACKAGE_libatomic=y
